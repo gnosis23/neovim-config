@@ -4,4 +4,7 @@ require("wangbohao.core.keymaps")
 require("wangbohao.core.colorscheme")
 require("wangbohao.plugins.nvim-tree")
 require("wangbohao.plugins.lualine")
+require("wangbohao.plugins.telescope")
+require("wangbohao.plugins.nvim-cmp")
+require("wangbohao.plugins.autopairs")
 
