@@ -23,6 +23,8 @@ vim.cmd([[
 return require('packer').startup(function(use)
   use 'wbthomason/packer.nvim'
 
+  use 'bluz71/vim-nightfly-guicolors'
+
   use 'nvim-lua/plenary.nvim'
 
 
@@ -35,6 +37,12 @@ return require('packer').startup(function(use)
 
   -- file explorer
   use 'nvim-tree/nvim-tree.lua'
+
+  -- icons
+  use 'kyazdani42/nvim-web-devicons'
+
+  -- statusline
+  use 'nvim-lualine/lualine.nvim'
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins

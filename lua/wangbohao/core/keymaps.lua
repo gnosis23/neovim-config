@@ -10,5 +10,6 @@ keymap.set("n", "<leader>nh", ":nohl<CR>")
 
 -- plugin keymaps
 keymap.set("n", "<leader>sm", ":MaximizerToggle<CR>")
+keymap.set("n", "<leader>t", ":NvimTreeToggle<CR>")
 
 
